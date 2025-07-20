@@ -229,6 +229,9 @@
 /* Media Queries for phone */
 
 @media screen and (max-width: 576px) {
+    html,body{
+        overflow-x: hidden;
+    }
     .header{
     justify-content: space-between;
     flex-direction: column;
